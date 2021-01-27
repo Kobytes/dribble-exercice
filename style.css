@@ -1,0 +1,92 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Avenir', serif;
+}
+
+.column img
+{
+    width: 150px;
+}
+
+.container
+{
+    width: 900px;
+    margin: auto;
+}
+
+.columns
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    height: 100vh;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.column
+{
+    background-color: #121525;
+    border-radius: 10px;
+    list-style: none;
+    transition: 0.3s;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.column:hover
+{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+h3
+{
+    background: -webkit-linear-gradient(90deg, #5CAFF7, #547CFE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    text-align: center;
+}
+
+p
+{
+    color: #404662;
+    font-size: 20px;
+    text-align: center;
+}
+
+.column-price p
+{
+    border: none;
+    color: #5477FF;
+    text-align: center;
+    font-size: 30px;
+}
+
+.button-buy
+{
+    position: absolute;
+    background-color: #000000;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #5BA9F8;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0px 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button-buy:hover
+{
+    background-image: linear-gradient(90deg, #5CAFF7, #547CFE);
+}
+
+body
+{
+    background-image: url(./images/external-content.duckduckgo.com.jpg);
+}
